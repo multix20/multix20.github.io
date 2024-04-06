@@ -1,0 +1,116 @@
+.titulo-centrado {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500; /* Medium */
+    font-size: 50px;
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+    margin-top: 0;
+}
+
+.contenedor-fondo {
+    background-image: url('../img/bg-header.jpg'); /* Asegúrate de reemplazar URL_DE_TU_IMAGEN_AQUI con la URL de tu imagen */
+    background-size: cover;
+    background-position: center center 0px;
+    background-repeat: no-repeat;
+    min-height: 750px; /* Esto asegura que el contenedor tenga altura y la imagen de fondo sea visible */
+    margin-top: 0; /* Ajusta según la separación que desees entre el contenedor de título y este contenedor */
+}
+
+.titulo-centrado, .contenedor-fondo, .contenedor-titulo {
+    margin: 0;
+    padding: 0;
+}
+.contenedor {
+    display: flex;
+    align-items: center; /* Centra verticalmente los hijos del contenedor */
+    justify-content: center; /* Centra horizontalmente los hijos del contenedor */
+    background-color: black; /* Fondo negro para el contenedor */
+    padding: 20px; /* Espacio interior para que el contenido no toque los bordes */
+}
+
+.texto, .imagen {
+    margin: 30px; /* Margen para el texto y la imagen */
+}
+
+.texto {
+    /* Estilos adicionales para el texto aquí */
+    text-align: justify;
+    color: white; /* Color del texto a blanco para mayor contraste con el fondo negro */
+    flex-basis: 50%; /* Ajusta esto dependiendo de cuánto espacio quieres que tome el texto */
+}
+
+.imagen {
+    /* Estilos adicionales para la imagen aquí */
+    flex-basis: 25%; /* Ajusta esto dependiendo de cuánto espacio quieres que tome la imagen */
+}
+
+.imagen img {
+    max-width: 100%; /* La imagen no será más ancha que su contenedor */
+    height: auto; /* Mantiene la relación de aspecto de la imagen */
+}
+
+.seccion-caracteristicas h2 {
+    font-size: 3em; /* Aumenta el tamaño del texto del encabezado */
+    font-weight: 100; /* Esto hará que el texto sea más delgado */
+    /* Otras propiedades de estilo que desees aplicar al encabezado pueden ir aquí */
+}
+
+.seccion-caracteristicas {
+    color: white;
+    background-color: #1E1A13;
+    padding: 40px;
+    text-align: center; /* Esto centrará el título y el texto de los íconos */
+}
+
+.contenedor-iconos {
+    display: flex;
+    justify-content: space-around; /* Esto distribuirá uniformemente los íconos a lo ancho del contenedor */
+    align-items: center; /* Esto alineará verticalmente los íconos en caso de que tengan diferentes alturas */
+}
+
+.icono {
+    display: flex;
+    flex-direction: column; /* Ordena los elementos del ícono verticalmente */
+    align-items: center; /* Alinea horizontalmente los elementos del ícono */
+}
+
+.icono i {
+    font-size: 3em; /* Aumenta el tamaño de los íconos */
+    margin-bottom: 10px; /* Espacio entre el ícono y el texto */
+}
+
+.icono p {
+    font-size: 1.6em;
+}
+
+.contenedor-imagenes {
+    display: flex;
+    justify-content: center; /* Centra las imágenes en el eje horizontal */
+    gap: 20px;
+    background-color: black;
+    padding: 7vh;
+}
+
+.footer {
+    background-color: #333; /* Un color de fondo oscuro */
+    color: #fff; /* Texto blanco para contraste */
+    text-align: center; /* Alinea el texto al centro */
+    padding: 20px 0; /* Añade padding arriba y abajo del footer */
+    font-size: 1em; /* Tamaño de fuente estándar */
+}
+
+.container {
+    margin: auto; /* Centra el contenedor si es necesario */
+    max-width: 1200px; /* Ancho máximo del contenedor */
+}
+
+.footer a {
+    color: #fff; /* El color del texto del enlace */
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    font-weight: bold; /* Hace el texto del enlace en negrita */
+}
+
+.footer a:hover {
+    text-decoration: underline; /* Subraya el enlace al pasar el mouse por encima */
+}
