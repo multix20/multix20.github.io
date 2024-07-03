@@ -1,5 +1,5 @@
 body, h1, h2, h3, h4, h5, h6, p, a, span, div, label, button {
-  color: rgb(8, 8, 8) !important; /* Color general del texto */
+  color: rgb(5, 5, 5) !important; /* Color general del texto */
 }
 
 body {
@@ -42,16 +42,22 @@ body {
 
 #Contacto form label {
   font-weight: 700;
-  color: rgb(12, 12, 12); /* Color del texto en la sección de contacto */
+  color: white; /* Color del texto en la sección de contacto */
 }
 
 @media (max-width: 768px) {
   #Contacto form label {
     font-weight: 400;
-    color: rgb(7, 6, 6); /* Asegurando que en dispositivos pequeños también sea blanco */
+    color: white; /* Asegurando que en dispositivos pequeños también sea blanco */
   }
 
   .navbar-brand{
     width: 100px;
   }
+}
+
+/* Navbar */
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white !important; /* Color del texto en el menú de navegación */
 }
